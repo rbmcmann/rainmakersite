@@ -87,6 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60c257', end
     background-repeat:no-repeat;
     height: 800px;
     margin: 0;
+    position: relative;
 }
 .jumbotron .container {
     margin-top: 250px;
@@ -104,6 +105,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#60c257', end
     font-size: 17px;
     font-weight: 400;
     color: #fff;
+}
+.direction {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -15px;
 }
 .news-wrapper {
 	background: #F1F1F1;
